@@ -70,5 +70,5 @@ test('Test Sauce Demo', async ({ page }, testInfo) => {
 
 test('navigate', async ({page}) => {
     await page.goto(process.env.URL)
-    await page.pause()
+    //await page.pause()
 })

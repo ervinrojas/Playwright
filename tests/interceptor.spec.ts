@@ -57,6 +57,6 @@ test('Interceptor', async ({ page }) => {
     );
 
     await page.goto('https://demoqa.com/books')
-    await page.pause()
+    //await page.pause()
     await page.screenshot({path: 'screenshots/login2.png', fullPage:true}) 
 });
